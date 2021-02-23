@@ -1,0 +1,143 @@
+:root{
+    --menu:#D96704;
+    --hatter:#F2CA80;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--hatter);
+}
+#egesz{
+    height: 100%;
+    padding: 0;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    border-color: black;
+    border-width: 0px 1px;
+    border-style: solid;
+}
+#menuszalag{
+    height: 35px;
+    width: 80%;
+    background-color: var(--menu);
+    padding-top: 10px;
+    position: fixed;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#menuszalag ul{
+    display: inline;
+    overflow: hidden;
+}
+#menuszalag ul li{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    padding: 10px;
+    height: 50px;
+    border-color: black;
+    border-width: 0px 2.5px 2px 1px;
+    border-style: solid;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(255, 94, 0);
+}
+#menuszalag ul li:hover{
+    background-color: rgb(255, 60, 0);
+}
+#tartalom{
+    padding-top: 55px;
+    width: 100%;
+    background-color: var(--hatter);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 3.5vw;
+    margin: 20px;
+    text-align: center;
+}
+h1, h2{
+    margin: 0;
+}
+h5{
+    text-align: center;
+    font-size: calc(10px + 1vw);
+}
+h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    color: orangered;
+    font-size: calc(10px + 1.2vw);
+}
+#kapcsolat{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    padding-top: 10px;
+}
+#kapcsolat p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: calc(10px + 0.4vw);
+}
+#kapcsolat hr{
+    border: 1px groove black;
+}
+#galeria tr td{
+    border: 1px solid black;
+    width: 0.1%;
+    height: 18vw;
+}
+#foto1, #foto2, #foto3, #foto4, #foto5, #foto6, #foto7, #foto8, #foto9, #foto10, #foto11, #foto12, #foto13{
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+#foto1:hover, #foto2:hover, #foto3:hover, #foto4:hover, #foto5:hover, #foto6:hover, #foto7:hover, #foto8:hover, #foto9:hover, #foto10:hover, #foto11:hover, #foto12:hover, #foto13:hover{
+    background-size: 160%;
+    background-position-x: 60%;
+    background-position-y: 50%;
+}
+#foto1{
+    background-image: url(kepek/galeria/foto1.jpg);
+}
+#foto2{
+    background-image: url(kepek/galeria/foto2.jpg);
+}
+#foto3{
+    background-image: url(kepek/galeria/foto3.jpg);
+}
+#foto4{
+    background-image: url(kepek/galeria/foto4.jpg);
+}
+#foto5{
+    background-image: url(kepek/galeria/foto5.jpg);
+}
+#foto6{
+    background-image: url(kepek/galeria/foto6.jpg);
+}
+#foto7{
+    background-image: url(kepek/galeria/foto7.jpg);
+}
+#foto8{
+    background-image: url(kepek/galeria/foto8.webp);
+}
+#foto9{
+    background-image: url(kepek/galeria/foto9.webp);
+}
+#foto10{
+    background-image: url(kepek/galeria/foto10.jpg);
+}
+#foto11{
+    background-image: url(kepek/galeria/foto11.jpg);
+}
+#foto12{
+    background-image: url(kepek/galeria/foto12.jpg);
+}
+#foto13{
+    background-image: url(kepek/galeria/foto13.webp);
+}

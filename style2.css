@@ -1,0 +1,144 @@
+:root{
+    --menu:#D96704;
+    --hatter:#F2CA80;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--hatter);
+}
+#egesz{
+    padding: 0;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    border-color: black;
+    border-width: 0px 1px;
+    border-style: solid;
+}
+#menuszalag{
+    height: 35px;
+    width: 80%;
+    background-color: var(--menu);
+    padding-top: 10px;
+    position: fixed;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#menuszalag ul{
+    display: inline;
+    overflow: hidden;
+}
+#menuszalag ul li{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    padding: 10px;
+    height: 50px;
+    border-color: black;
+    border-width: 0px 2.5px 2px 1px;
+    border-style: solid;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(255, 94, 0);
+}
+#menuszalag ul li:hover{
+    background-color: rgb(255, 60, 0);
+}
+#tartalom{
+    padding-top: 55px;
+    width: 100%;
+    background-color: var(--hatter);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 3.5vw;
+    margin: 20px;
+    text-align: center;
+}
+h1, h2{
+    margin: 0;
+}
+h5{
+    text-align: center;
+    font-size: calc(10px + 1vw);
+}
+h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    color: orangered;
+    font-size: calc(10px + 1.2vw);
+}
+#kapcsolat{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    padding-top: 10px;
+}
+#kapcsolat p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: calc(10px + 0.4vw);
+}
+#kapcsolat hr{
+    border: 1px groove black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    width: 100%;
+    background-color: rgba(63, 63, 63, 0.395);
+    border-width: 2px 0px 0px;
+    border-style: solid;
+    border-color: black;
+}
+tr:hover{
+    background-color: rgba(63, 63, 63, 0.728);
+}
+.kep{
+    width: 20%;
+}
+.szoveg{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+h6{
+    font-size: 1.8vw;
+    margin: 0;
+    margin-top: 10px;
+}
+.datum{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+#allas .kep{
+    background-image: url(kepek/munka.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#tamogatas .kep{
+    background-image: url(kepek/donate.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#etterem .kep{
+    background-image: url(kepek/etterem.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
